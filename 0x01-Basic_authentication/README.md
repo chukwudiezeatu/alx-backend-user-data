@@ -640,7 +640,6 @@ Add the method `def extract_user_credentials(self, decoded_base64_authorization_
 -   Otherwise, return the user email and the user password - these 2 values must be separated by a `:`
 -   You can assume `decoded_base64_authorization_header` will contain only one `:`
 
-```
 bob@dylan:~$ cat main_4.py
 #!/usr/bin/env python3
 """ Main 4
